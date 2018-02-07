@@ -1,0 +1,336 @@
+@import "reset"
+@import "flexboxgrid"
+@import "bootstrap"
+@import "bootstrap-theme"
+@import "fonts"
+@import "media"
+@import "social"
+
+
+body
+    height: 100%
+    font-family: 'HelveticaNeue', Arial, sans-serif
+    font-weight: 400
+    color: #a5a5a5
+    line-height: 180%
+h1
+    font-family: 'Pacifico', cursive
+    color: #fff
+    font-size: 60px
+    line-height: 100%
+    font-weight: 400
+    padding-bottom: 38px
+
+span.dot
+    color:#2ecc71 
+h2
+    font-family: 'Raleway-SemiBold', Arial, sans-serif
+    font-weight: bold
+    color:#222222
+    line-height: 100%
+    font-size: 21px
+h3
+    font-family: 'Raleway-SemiBold', Arial, sans-serif
+    font-weight: bold
+    color:#222222
+    line-height: 100%
+    font-size: 18px
+h4
+    font-family: 'HelveticaNeue-Medium', Arial, sans-serif
+    font-weight: bold
+    color:#fff
+    line-height: 160%
+    font-size: 22px
+    font-weight: 400
+
+a:hover
+    text-decoration: none
+    
+
+.wrapper
+    background: #fff
+    height: 100%
+    max-width: 1600px
+    // padding-right: 10px
+    // padding-left: 10px
+
+.header
+    background: url(../img/header01.jpg)
+    height: 610px
+    width: 100%
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center center
+    // background-attachment: fixed
+    -webkit-background-size: cover
+    -moz-background-size: cover
+    -o-background-size: cover
+
+    display: flex
+    // align-items: center
+    justify-content: center
+
+.social ul li i.item-opacity
+    // background-color: #909AA0
+    background-color: rgba(144, 154, 160, 0.6)
+
+.img
+
+    display: none
+    &-320
+        width: 100%
+        height: 100%
+        display: none
+    &-480
+        width: 100%
+        height: 100%
+        display: none
+    &-600
+        width: 100%
+        height: 100%
+        display: none
+    &-960
+        width: 100%
+        height: 100%
+        display: none
+    &-1024
+        width: 100%
+        height: 100%
+        display: none
+    &-1200
+        width: 100%
+        height: 100%
+        display: none
+
+
+.header__body
+    padding-bottom: 26px
+.header__bottom
+
+    
+
+.header__block
+    padding-top: 180px
+    margin: 0 auto
+    max-width: 1020px
+
+
+footer.footer
+    background: green
+    & .gray
+        display: flex
+        justify-content: center
+
+.gray
+    width: 100%
+    background: #e3e3e3
+    padding-right: 15px
+    padding-left: 15px
+    display: flex
+    justify-content: space-between
+.main
+    max-width: 100%
+    &__head
+        width: 100%
+        background: #fff
+        padding-bottom: 59px
+    &__circles
+        margin: auto
+        max-width: 1200px
+        display: flex
+        justify-content: space-between
+        padding-right: 10px
+        padding-left: 10px
+
+        
+        
+
+
+    &__circle
+        &-gear
+            padding-top: 60px
+            width: 320px
+            margin-right: 5px
+            margin-left: 5px
+            
+
+    &__title
+        font-family: 'Raleway-SemiBold', Arial, sans-serif
+        text-align: center
+        font-weight: bold
+        padding-top: 31px
+        padding-bottom: 22px
+
+    &__img
+        text-align: center
+        display: block
+        margin-left: auto
+        margin-right: auto
+    &__content
+        padding-top: 31px
+
+
+    &__body
+        max-width: 1200px
+        margin: auto
+        display: flex
+        flex-wrap: wrap
+        padding-right: 10px
+        padding-left: 10px
+    &__footer
+        padding-top: 60px
+        padding-bottom: 61px
+        padding-right: 15px
+        padding-left: 15px
+        max-width: 1180px
+        margin: auto
+        // display: flex
+        justify-content: space-between
+
+    &__notify
+        max-width: 540px
+        // min-width: 320px
+        padding-top: 60px
+        padding-bottom: 60px
+    &__video  
+        max-width: 501px
+        height: auto
+        padding-top: 60px
+        padding-bottom: 60px
+    &__email
+        display: flex
+        
+        margin-top: 30px
+
+    &__socials
+        max-width: 100%
+        text-align: center
+    &__socicons
+        margin: auto
+    &__quote
+        max-width: 824px
+        margin: auto
+    &__name
+        padding-top: 26px
+        padding-bottom: 30px
+        text-align: center
+    &__carousel
+        max-width: 1180px
+        text-align: center
+        // margin: auto
+    &__text
+        padding-bottom: 26px
+        text-align: center
+    &__clients
+        &>ul
+            display: flex
+            justify-content: space-between
+            & li
+                display: block
+                &:hover a img 
+                    display: block
+                    background: rgba(0,0,0,0.5)
+
+                        
+
+.button
+    font-family: 'Raleway-Bold', Arial, sans-serif
+    display: inline
+    border: 0
+    padding-top: 13px 
+    padding-bottom: 17px 
+    padding-left: 40px 
+    padding-right: 40px 
+    border-radius: 0px 20px 20px 0px
+    background: #2ecc71
+    color: #fff
+    font-weight: bold
+    font-size: 21px
+    cursor: pointer
+.content
+    max-width: 100%
+.email 
+    display: block
+    font-family: 'HelveticaNeue', Arial, sans-serif
+    font-weight: normal
+    font-size: 13px
+
+    border: 1px solid #bbb
+    border-right: 0
+    min-width: 150px
+    max-width: 305px
+    flex-basis: auto /* default value */
+    flex-grow: 1
+
+
+    border-radius: 20px 0px 0px 20px
+
+    padding-left: 25px
+    padding-bottom: 13px
+    padding-top: 14px
+// .email::-webkit-input-placeholder
+//     font-family: 'HelveticaNeue', Arial, sans-serif
+//     font-weight: normal
+//     font-size: 13px
+
+nav
+    
+    ul.active
+        display: flex
+        justify-content: space-between
+        li
+
+            
+            a 
+                color: #a5a5a5
+                font-family: 'HelveticaNeue', Arial, sans-serif
+                font-weight: normal
+                font-size: 16px
+                font-weight: 400
+                display: block
+                // padding: 15px
+                // text-align: center
+nav
+    
+    ul.active
+        li
+            a:hover
+                color: black 
+
+
+
+.menu
+    text-align: center
+    padding-top: 60px
+    padding-bottom: 55px
+    position: relative
+
+.active 
+    display: flex
+
+
+.active li 
+    display: block
+
+
+.toggle-nav 
+    top: 51px
+    /* display: block */
+    position: absolute
+    right: -10px
+    width: 44px
+    text-align: right
+    /* display: none */
+    padding-left: 7px
+    padding-right: 7px
+    border: 1px solid black
+
+
+.toggle-nav div 
+    width: 30px
+    height: 5px
+    background-color: black
+    margin: 6px 0
+
+
+
